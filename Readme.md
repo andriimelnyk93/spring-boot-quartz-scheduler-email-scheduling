@@ -1,7 +1,5 @@
 # Spring Boot Quartz Scheduler Example: Building an Email Scheduling app
 
-**Complete Tutorial:** https://www.callicoder.com/spring-boot-quartz-scheduler-email-scheduling-example/
-
 ## Requirements
 
 1. Java - 11
@@ -15,7 +13,7 @@
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
+git clone https://github.com/andriimelnyk93/spring-boot-mysql-rest-api-tutorial.git
 ```
 
 **2. Create MySQL database**
@@ -63,9 +61,6 @@ mvn spring-boot:run
 
 ## Scheduling an Email using the /scheduleEmail API
 
-```bash
-curl -i -H "Content-Type: application/json" -X POST \
--d '{"email":"callicoder@gmail.com","subject":"Things I wanna say to my Future self","body":"Dear Future me, <br><br> <b>Think Big And Don’t Listen To People Who Tell You It Can’t Be Done. Life’s Too Short To Think Small.</b> <br><br> Cheers, <br>Rajeev!","dateTime":"2018-09-04T16:15:00","timeZone":"Asia/Kolkata"}' \
 http://localhost:8080/scheduleEmail
 
 # Output
